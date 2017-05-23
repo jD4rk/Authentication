@@ -15,6 +15,7 @@ import android.widget.TextView;
 
 public class ChooserActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
+    //TODO Replace ids and Fabris key from "gradle.properties" (local) before run
 
     private static final Class[] CLASSES = new Class[]{
             EmailPasswordActivity.class,
