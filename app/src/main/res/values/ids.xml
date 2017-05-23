@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        get this string from your facebook developer console
+    -->
+    <string name="facebook_app_id">gradle.properties(local)</string>
+
+
+    <!--
+        get those keys from your Twitter developer console
+    -->
+    <string name="twitter_consumer_key">gradle.properties(local)</string>
+    <string name="twitter_consumer_secret">gradle.properties(local)</string>
+
+    <!--
+        get this key from your Fabric Account
+     -->
+    <string name="fabric_api_key">gradle.properties(local)</string>
+</resources>

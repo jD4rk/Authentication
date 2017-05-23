@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Firebase Authentication</string>
+
+    <string name="logo_descript">Firebase logo</string>
+
+    <string name="desc_email_and_passwd">Authenticate in Firebase with email and password</string>
+    <string name="desc_google_signin">Authenticate in Firebase with your google accout</string>
+    <string name="desc_firebase_ui">Authenticate in Firebase with Firebase UI Activity</string>
+    <string name="desc_facebook">Authenticate in Firebase with Facebook account</string>
+    <string name="desc_twitter">Authenticate in Firebase with Twitter account</string>
+
+    <string name="email_password_title_text">Email and Password</string>
+    <string name="google_title_text">Firebase + Google Sign in</string>
+    <string name="firebase_ui_title_text">Firebase UI Auth</string>
+    <string name="facebook_title_text">Firebase + Facebook Sign in</string>
+    <string name="twitter_title_text">Firebase + Twitter Sign in</string>
+
+    <string name="email_input_field">email...</string>
+    <string name="password_input_field">password...</string>
+    <string name="sign_in_text">Sign in </string>
+    <string name="sign_out_text">Sign Out</string>
+    <string name="detail_empty_text">Firebase User ID:</string>
+    <string name="register_text">Create Account </string>
+    <string name="verify_email_text">Verify Email</string>
+    <string name="disconnect_text">Disconnect</string>
+    <string name="auth_failed">Authetication Failed</string>
+
+    <string name="email_password_status_form">Email User: %1$s (verified: %2$b)</string>
+    <string name="email_password_firebase_status_form">Firebase User: %s</string>
+
+    <string name="google_status_form">Google User: %s</string>
+    <string name="google_detail_form">Firebase User: %s</string>
+
+    <string name="firebase_ui_status_form">Firebase User: %s</string>
+    <string name="firebase_ui_detail_form">User ID: %s</string>
+
+    <string name="facebook_status_form">Firebase User: %s</string>
+    <string name="facebook_detail_form">User ID: %s</string>
+
+    <string name="twitter_status_form">Firebase User: %s</string>
+    <string name="twitter_detail_form">User ID: %s</string>
+    </resources>

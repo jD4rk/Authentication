@@ -1,0 +1,131 @@
+{
+  "project_info": {
+    "project_number": "634671411433",
+    "firebase_url": "https://cloud-messaging-60fe0.firebaseio.com",
+    "project_id": "cloud-messaging-60fe0",
+    "storage_bucket": "cloud-messaging-60fe0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634671411433:android:a7fba1fdb7d568c2",
+        "android_client_info": {
+          "package_name": "it.jdark.android.firebase.cloudmessaging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634671411433-cm7a2bmhdf3uoa2sbe60u36hbr3f8o16.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "it.jdark.android.firebase.cloudmessaging",
+            "certificate_hash": "4bb0f22352a2701fbb17bdab9c4d6172b208e7e9"
+          }
+        },
+        {
+          "client_id": "634671411433-m0am48v5ef63fv4f5jr33qu5n1vhi4fd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "it.jdark.android.firebase.cloudmessaging",
+            "certificate_hash": "4969124bb3695cf34214cb908640a734be888aa7"
+          }
+        },
+        {
+          "client_id": "634671411433-8iobhhjuah260f3119pq6temsguuukf3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "it.jdark.android.firebase.cloudmessaging",
+            "certificate_hash": "19ef9d9e51a589a5c7a6d9069e836ee542a2d45e"
+          }
+        },
+        {
+          "client_id": "634671411433-njnr25bsc8p80vj4445snmibuqhiquhl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwGR-6TxnKK1juDxTb3a9KBtAn3Xha_-U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634671411433-njnr25bsc8p80vj4445snmibuqhiquhl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634671411433:android:8d6abcba1baec391",
+        "android_client_info": {
+          "package_name": "it.jdark.android.firebase.authentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634671411433-hclajv0c7t7cbb4ncholrcshkkji918e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "it.jdark.android.firebase.authentication",
+            "certificate_hash": "19ef9d9e51a589a5c7a6d9069e836ee542a2d45e"
+          }
+        },
+        {
+          "client_id": "634671411433-qjf9m7qh1ddnp7d3qvd93t8sfntekns5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "it.jdark.android.firebase.authentication",
+            "certificate_hash": "4969124bb3695cf34214cb908640a734be888aa7"
+          }
+        },
+        {
+          "client_id": "634671411433-kfvh7n8pg7b0eoqgq1ankhla0scvc696.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "it.jdark.android.firebase.authentication",
+            "certificate_hash": "4bb0f22352a2701fbb17bdab9c4d6172b208e7e9"
+          }
+        },
+        {
+          "client_id": "634671411433-njnr25bsc8p80vj4445snmibuqhiquhl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwGR-6TxnKK1juDxTb3a9KBtAn3Xha_-U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634671411433-njnr25bsc8p80vj4445snmibuqhiquhl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

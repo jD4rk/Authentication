@@ -1,0 +1,85 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
+
+    if (project.hasProperty("KEY_STORE_FILE")) {
+        signingConfigs {
+            release {
+                storeFile file(KEY_STORE_FILE)
+                storePassword KEY_STORE_PASSWORD
+                keyAlias RELEASE_KEY_ALIAS
+                keyPassword RELEASE_KEY_PASSWORD
+            }
+            debug {
+                storePassword ""
+                keyAlias ""
+                keyPassword ""
+            }
+        }
+    }
+
+    defaultConfig {
+        applicationId "it.jdark.android.firebase.authentication"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+configurations.all {
+    resolutionStrategy.force 'com.android.support:support-annotations:25.3.1'
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:cardview-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+
+    testCompile 'junit:junit:4.12'
+
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    // Firebase Authentication
+    compile 'com.google.firebase:firebase-auth:10.2.6'
+
+    // Google Sign In SDK (only required for Google Sign In)
+    compile 'com.google.android.gms:play-services-auth:10.2.6'
+
+    // Firebase UI
+    // Used in FirebaseUIActivity. The FirebaseUI-Android library has a minSdk level of 16compile ('com.firebaseui:firebase-ui-auth:1.0.0') {
+    compile('com.firebaseui:firebase-ui-auth:1.0.0') {
+        exclude group: "com.android.support"
+    }
+
+    // Facebook SDK
+    compile('com.facebook.android:facebook-android-sdk:4.20.0') {
+        exclude group: "com.android.support"
+    }
+
+    // Twitter Android SDK (only required for Twitter Login)
+    compile('com.twitter.sdk.android:twitter-core:2.3.0@aar') {
+        transitive = true
+    }
+    compile('com.twitter.sdk.android:twitter:2.3.1@aar') {
+        transitive = true;
+    }
+}
+apply plugin: 'com.google.gms.google-services'
