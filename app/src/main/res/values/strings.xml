@@ -8,12 +8,14 @@
     <string name="desc_firebase_ui">Authenticate in Firebase with Firebase UI Activity</string>
     <string name="desc_facebook">Authenticate in Firebase with Facebook account</string>
     <string name="desc_twitter">Authenticate in Firebase with Twitter account</string>
+    <string name="desc_phone">Authenticate in Firebase with Phone number</string>
 
     <string name="email_password_title_text">Email and Password</string>
     <string name="google_title_text">Firebase + Google Sign in</string>
     <string name="firebase_ui_title_text">Firebase UI Auth</string>
     <string name="facebook_title_text">Firebase + Facebook Sign in</string>
     <string name="twitter_title_text">Firebase + Twitter Sign in</string>
+    <string name="phone_title_text">Firebase + phone number Sign in</string>
 
     <string name="email_input_field">email...</string>
     <string name="password_input_field">password...</string>
@@ -37,6 +39,16 @@
     <string name="facebook_status_form">Firebase User: %s</string>
     <string name="facebook_detail_form">User ID: %s</string>
 
+    <string name="phone_number_status_form">User phone number: %s</string>
+    <string name="phone_number_detail_form">User ID: %s</string>
+
     <string name="twitter_status_form">Firebase User: %s</string>
     <string name="twitter_detail_form">User ID: %s</string>
-    </resources>
+
+    <string name="send_code_text">Request code</string>
+    <string name="phone_number_hit">your number</string>
+    <string name="validate_code_text">Verify</string>
+    <string name="verify_code_button">Validate</string>
+
+
+</resources>

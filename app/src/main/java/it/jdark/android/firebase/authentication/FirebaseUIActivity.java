@@ -31,7 +31,7 @@ public class FirebaseUIActivity extends AppCompatActivity implements View.OnClic
         status = (TextView) findViewById(R.id.status);
         detail = (TextView) findViewById(R.id.details);
 
-        findViewById(R.id.sign_in_button).setOnClickListener(this);
+        findViewById(R.id.resend_code).setOnClickListener(this);
         findViewById(R.id.sign_out_button).setOnClickListener(this);
 
     }
@@ -39,7 +39,7 @@ public class FirebaseUIActivity extends AppCompatActivity implements View.OnClic
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.sign_in_button:
+            case R.id.resend_code:
                 startSignIn();
                 break;
             case R.id.sign_out_button:
@@ -84,14 +84,14 @@ public class FirebaseUIActivity extends AppCompatActivity implements View.OnClic
             status.setText(getString(R.string.firebase_ui_status_form, user.getEmail()));
             detail.setText(getString(R.string.firebase_ui_detail_form, user.getUid()));
 
-            findViewById(R.id.sign_in_button).setVisibility(View.GONE);
+            findViewById(R.id.resend_code).setVisibility(View.GONE);
             findViewById(R.id.sign_out_button).setVisibility(View.VISIBLE);
         } else {
             // Signed out
             status.setText(R.string.sign_out_text);
             detail.setText(R.string.detail_empty_text);
 
-            findViewById(R.id.sign_in_button).setVisibility(View.VISIBLE);
+            findViewById(R.id.resend_code).setVisibility(View.VISIBLE);
             findViewById(R.id.sign_out_button).setVisibility(View.GONE);
         }
     }

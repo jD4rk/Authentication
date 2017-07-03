@@ -22,7 +22,8 @@ public class ChooserActivity extends AppCompatActivity implements AdapterView.On
             GoogleSigninActivity.class,
             FirebaseUIActivity.class,
             FacebookActivity.class,
-            TwitterActivity.class
+            TwitterActivity.class,
+            PhoneActivity.class
     };
 
     private static final int[] DESCRIPTION_IDS = new int[] {
@@ -30,7 +31,8 @@ public class ChooserActivity extends AppCompatActivity implements AdapterView.On
             R.string.desc_google_signin,
             R.string.desc_firebase_ui,
             R.string.desc_facebook,
-            R.string.desc_twitter
+            R.string.desc_twitter,
+            R.string.desc_phone
     };
 
     @Override

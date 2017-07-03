@@ -2,19 +2,19 @@
 <resources>
 
     <!--
-        get this string from your facebook developer console
+        get this string from your facebook developer console    gradle.properties(local)
     -->
-    <string name="facebook_app_id">gradle.properties(local)</string>
+    <string name="facebook_app_id">change-me</string>
 
 
     <!--
         get those keys from your Twitter developer console
     -->
-    <string name="twitter_consumer_key">gradle.properties(local)</string>
-    <string name="twitter_consumer_secret">gradle.properties(local)</string>
+    <string name="twitter_consumer_key">change-me</string>
+    <string name="twitter_consumer_secret">change-me</string>
 
     <!--
         get this key from your Fabric Account
      -->
-    <string name="fabric_api_key">gradle.properties(local)</string>
+    <string name="fabric_api_key">change-me</string>
 </resources>
